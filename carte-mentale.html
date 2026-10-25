@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Carte mentale interactive de l’Empire colonial français.">
+  <title>Carte mentale interactive — L’Empire colonial français</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body class="mindmap-page">
+  <header class="mindmap-topbar">
+    <a class="mindmap-back" href="index.html">← Retour à l’accueil</a>
+    <span class="mindmap-topbar-title">L’Empire colonial français</span>
+  </header>
+  <main class="mindmap-main">
+    <section class="section wrap" id="carte-mentale">
+    <div class="kicker">Carte mentale / Synthèse du TDR</div>
+    <div class="section-head mindmap-heading">
+      <div>
+        <h2>Explorer l’Empire colonial français</h2>
+        <p>Cliquez sur une grande branche pour découvrir ses sous-thèmes, puis sur un sous-thème pour afficher une explication plus précise.</p>
+      </div>
+    </div>
+
+    <div class="mindmap-board" aria-label="Carte mentale interactive de l’Empire colonial français">
+      <div class="mindmap-root-wrap"><div class="mindmap-root">L’Empire colonial français</div></div>
+      <div class="mindmap-branches" id="mindmap-branches">
+        <button class="mindmap-branch branch-expansion" type="button" data-branch="expansion" aria-expanded="false"><span class="branch-icon">↗</span><span>Expansion</span><small>Comment l’empire s’est-il construit ?</small></button>
+        <button class="mindmap-branch branch-organisation" type="button" data-branch="organisation" aria-expanded="false"><span class="branch-icon">⌂</span><span>Fonctionnement</span><small>Comment les territoires étaient-ils gouvernés ?</small></button>
+        <button class="mindmap-branch branch-societes" type="button" data-branch="societes" aria-expanded="false"><span class="branch-icon">◎</span><span>Sociétés coloniales</span><small>Inégalités, résistances et vie quotidienne</small></button>
+        <button class="mindmap-branch branch-guerres" type="button" data-branch="guerres" aria-expanded="false"><span class="branch-icon">✦</span><span>Guerres mondiales</span><small>Le rôle des colonies dans les conflits</small></button>
+        <button class="mindmap-branch branch-decolonisation" type="button" data-branch="decolonisation" aria-expanded="false"><span class="branch-icon">↯</span><span>Décolonisation</span><small>Les luttes et les indépendances</small></button>
+        <button class="mindmap-branch branch-aujourdhui" type="button" data-branch="aujourdhui" aria-expanded="false"><span class="branch-icon">◉</span><span>Héritages et monde actuel</span><small>Quelles traces aujourd’hui ?</small></button>
+      </div>
+      <div class="mindmap-detail" id="mindmap-detail" aria-live="polite">
+        <p class="mindmap-detail-label">Comment utiliser la carte</p>
+        <h3>Choisissez une branche</h3>
+        <p>La carte organise les grandes parties du travail. Sélectionnez une branche pour voir les idées principales et les sous-thèmes à explorer.</p>
+      </div>
+    </div>
+    <p class="mindmap-note">Cette carte est un résumé interactif : elle présente les liens entre les thèmes et ne remplace pas les explications complètes du travail.</p>
+  </section>
+  </main>
+  <script src="script.js" defer></script>
+</body>
+</html>
