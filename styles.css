@@ -523,34 +523,8 @@ h2 {
   color: #d0d9e2;
 }
 
-/* Ressources et PDF */
-
-.resource-buttons {
-  display: flex;
-
-  flex-wrap: wrap;
-
-  gap: 15px;
-
-  margin-top: 30px;
-}
-.button:hover {
-  transform: translateY(-3px);
-
-  background: #EFEAE2;
-}
-.button-dark {
-  background: #14263d;
-  color: white;
-}
-
-.button-dark:hover {
-  background: #233d5c;
-}
 
 /* PIED DE PAGE */
-
-/* Pied de page */
 
 .footer {
   padding: 45px 20px 15px;
